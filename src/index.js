@@ -21,3 +21,4 @@ module.exports = function toReadable (number) {
         else stringNumbersAll.push(stringNumbersAll[Math.floor(i/100)] + " hundred" + (i%100 == 0 ? "" : " "+stringNumbersAll[i%100]));
     }
   return stringNumbersAll[number]
+}
